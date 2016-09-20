@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+}
+
+#margin-padding-image{
+	height: 400px;
+	width: 800px;
+	align: center;
+}
+	.margins {
+		border: 2px solid blue;
+		margin: 75px 75px 75px 75px;
+		
+	}

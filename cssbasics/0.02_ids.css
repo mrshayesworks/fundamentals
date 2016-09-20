@@ -1,0 +1,17 @@
+body {
+	background-color: pink;
+}
+
+#number-one {
+	color:purple;
+	font-family: verdana;
+}
+
+#number-two {
+	font-size: 26px;
+}
+
+.first-class {
+	font-size: 30px;
+	background-color: green;
+}
