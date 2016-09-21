@@ -1,0 +1,36 @@
+StartFontMetrics 2.0
+Comment Copyright © 1999-2001 Apostrophic Labs. All rights reserved. For more works by the designer visit www.apostrophiclab.com
+Comment UniqueID 4206994
+Comment Panose 2 0 5 5 2 0 0 2 0 4
+FullName Scriptina - Alternates
+FontName Scriptina-Alternates
+FamilyName Scriptina - Alternates
+Weight Regular
+Notice © 1999-2001 Apostrophic Labs. All rights reserved. For more works by the designer visit www.apostrophiclab.com
+Version 001.000
+IsFixedPitch false
+ItalicAngle 0.00
+FontBBox -2063 -754 1888 1971
+Ascender 1207
+Descender -947
+XHeight 403
+CapHeight 795
+UnderlinePosition -100
+UnderlineThickness 50
+EncodingScheme AdobeStandardEncoding
+StartCharMetrics 13
+C 32 ; WX 329 ; N space ; B 0 0 0 0 ;
+C 65 ; WX 982 ; N A ; B 3 -174 1143 778 ;
+C 67 ; WX 714 ; N C ; B 23 -386 1868 1971 ;
+C 70 ; WX 903 ; N F ; B 8 -43 1154 851 ;
+C 72 ; WX 891 ; N H ; B -75 -69 1191 891 ;
+C 87 ; WX 910 ; N W ; B 20 -87 901 571 ;
+C 100 ; WX 739 ; N d ; B 9 -18 1888 1165 ;
+C 102 ; WX 446 ; N f ; B -758 -636 572 590 ;
+C 103 ; WX -670 ; N g ; B -1769 -657 1034 1259 ;
+C 104 ; WX 795 ; N h ; B 23 -81 1013 1056 ;
+C 108 ; WX -679 ; N l ; B -2063 -754 1208 1259 ;
+C 112 ; WX 749 ; N p ; B -1033 -690 834 531 ;
+C 116 ; WX 597 ; N t ; B 19 -143 747 884 ;
+EndCharMetrics
+EndFontMetrics
