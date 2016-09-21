@@ -35,4 +35,5 @@ console.log(newNum);
 newNum =newNum - 10;
 console.log(newNum);
 
+newNum 
 console.log(newNum);
