@@ -27,7 +27,7 @@
 // 	console.log('Not quite old enough.');
 // }
 
-var numberOne = 7;
+var numberOne = 30;
 
 
 if ((numberOne % 2 === 0) && (numberOne % 3 === 0)) {
@@ -40,3 +40,5 @@ if ((numberOne % 2 === 0) && (numberOne % 3 === 0)) {
 } else {
 	console.log('Number is divisible by 3.');
 }
+
+var sillyGitTestVariable = 'Hi'
