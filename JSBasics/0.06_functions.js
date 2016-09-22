@@ -77,18 +77,26 @@ var name = function() {
 
 // console.log(Clothes("red", "dress", "small"));
 
-//silver challenge
+// //silver challenge
 
-function bills () {
-var cable = xx;
-var lights = xy;
-var water = xyz;
+// function bills () {
+// var cable = xx;
+// var lights = xy;
+// var water = xyz;
 
-console.log(cable + lights + water);
+// console.log(cable + lights + water);
+// }
+
+// function bills(cable, lights, water){
+// 	return cable + lights + water;
+// }
+
+// console.log(bills(50, 50, 50));
+
+function calculatePrice(quantity, price, item, tax) {
+
+	var totalTax = (quantity * price * tax);
+	var totalPrice = quantity * price + totalTax;
+	return quantity + '' + item + 
 }
-
-function bills(cable, lights, water){
-	return cable + lights + water;
-}
-
-console.log(bills(50, 50, 50));
+console.log (calculatePrice(132, .88, "Cups of Coffee", 1.07)"));
