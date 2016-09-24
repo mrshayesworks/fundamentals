@@ -1,66 +1,123 @@
 body {
-	background-color: black;
-}
-/*header*/	
-@import url(http://fonts.googleapis.com/css?family=Rye);
-
-body 
-{ background: #660000; }
-
-.banner {
-  position: absolute;
-  left: 50%;
-  display: block;
-  margin: 100px -200px;
-  width: 600px;
-  height: 60px;
-  border: 1px solid #8a1;
-  font: normal 30px/60px 'Rye';
-  text-align: center;
-  color: #660000;
-  background: #ffd700;
-  border-radius: 4px;
-  box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
-      				0 6px 10px rgba(0,0,0,.15);
+  background-color: white;
 }
 
-.banner::before,
-.banner::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: -70px;
-  top: 24px;
-  display: block;
-  width: 40px;
-  height: 0px;
-  border: 30px solid #ffd700;
-  border-right: 20px solid #ffd700;
-  border-bottom-color: #ffd700;
-  border-left-color: transparent;
-  transform: rotate(-5deg);
-}
+/*header*/  
 
-.banner::after {
-  left: auto;
-  right: -70px;
-  border-left: 20px solid #ffd700;
-  border-right: 30px solid transparent;
-  transform: rotate(5deg);
-}
-/*header end*/
-nav {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
-  text-align: right;
-}
-
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
 .fancy {
-	font-size: 25px;
-	font-weight: bold;
-	height: 25%;
-	color: red;	
-	font-family: 'Courgette',cursive;
-	text-align: right;
+font-family: 'Tangerine', serif;
+  font-size: 70px;
+  text-shadow: 4px 4px 4px #aaa;
 }
+
+
+/*header end*/
+/*nav bar*/
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #fff4f5;
+}
+.menu li a{
+    display:block;
+    height:em;
+    width:5em;
+    text-indent:-500em;
+    line-height:5em;
+    text-align:center;
+    color: #ff5c62;
+    background: #fff4f5;
+    position: relative;
+    border-bottom: 1px solid #ffe2e3;
+    transition: background 0.3s ease-in-out;
+}
+.menu li a:before {
+  font-family: FontAwesome;
+  speak: none;
+  text-indent: 0em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.4em;
+}
+.menu li a.heels:before{
+  content: "Heels";
+}
+.menu li a.Call:before {
+  content: "Call";
+}
+.menu li a.boots:before{
+  content: "Boots";
+}
+.menu li a.sale:before {
+  content: "Sale";
+}
+.menu li a.about:before {
+  content: "About";
+}
+.menu li a.home:before {
+  content: "Home";
+}
+.menu li a:hover{
+  background: #ff5c62;
+  color: #fff;
+}
+.menu li.current a {
+  background: #ff5e5e;
+  color: #fff;
+}
+.menu li a.active {
+  background: #ff5e5e;
+  color: #fff;
+}
+.menu li a.active:after{
+    position:absolute;
+    left:5em;
+    top:0;
+    content:"";
+    border:2.5em solid transparent;
+    border-left-color:#ff5c62;
+    border-width: 2.5em 1em
+}
+.menu li{
+    position:relative;
+}
+.menu li:after{
+    content: attr(title);
+    position:absolute;
+    left:5em;
+    top:0;
+    height:5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    background:#ff5c62;
+    padding:2em;
+    transition: all 0.3s ease-in-out;
+    visibility:hidden;
+    opacity:0;
+}
+.menu li:hover:after
+{
+
+    visibility:visible;
+    opacity:1;
+}
+@media screen and (max-height: 34em){
+  .menu li{
+    font-size:70%;
+  }
+}
+
+/* body... product list*/
+
